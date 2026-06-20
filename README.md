@@ -95,10 +95,9 @@ Lumina-AI/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Lumina-AI.git
+git clone https://github.com/Sahil-Khandare/Lumina-AI
 cd Lumina-AI
 ```
-
 ### Install Dependencies
 
 ```bash
