@@ -62,7 +62,7 @@ Lumina AI is an AI-powered image analysis web application that transforms visual
 
 ---
 
-## Screenshots
+## Screenshot
 
 ### Application Interface
 
@@ -79,7 +79,7 @@ Lumina-AI/
 │   └── config.toml
 │
 ├── screenshot/
-│   └── visionlens_img.png
+│   └── image.png
 │
 ├── app.py
 ├── moon.png
