@@ -8,8 +8,8 @@ Lumina AI is an AI-powered image analysis web application that transforms visual
 
 ## 🚀 Live Demo
 
-🔗 **Live Application:** [https://lumina-vision.streamlit.app/]
-Note: The app is hosted on Streamlit Community Cloud and may take a few seconds to wake up if inactive.
+🔗 **Live Application:** [https://lumina-vision.streamlit.app/]<br>
+**Note:** The app is hosted on Streamlit Community Cloud and may take a few seconds to wake up if inactive.
 
 ---
 
