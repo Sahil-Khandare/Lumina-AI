@@ -7,6 +7,10 @@ PROMPT_MAP = {
     "Detect Objects":
     "List all visible objects in this image.",
 
-    "Generate Caption":
-    "Generate a concise and engaging caption for this image. Keep it under 15 words and return only the caption."
+    "Generate Caption":(
+        "Generate a concise and engaging caption of 2 to 5 words only. "
+        "Do not write a complete sentence. "
+        "Do not use punctuation, quotation marks, hashtags, emojis, or explanations. "
+        "Return only the caption."
+    )
 }
