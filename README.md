@@ -79,6 +79,9 @@ Lumina-AI/
 ├── .streamlit/
 │   └── config.toml
 │
+├── assets/
+│   └── moon.png
+│
 ├── screenshot/
 │   └── homepage.png
 │
