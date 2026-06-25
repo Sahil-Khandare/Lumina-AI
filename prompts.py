@@ -8,7 +8,7 @@ PROMPT_MAP = {
     "List all visible objects in this image.",
 
     "Generate Caption":(
-        "Generate a concise and engaging caption of 2 to 5 words only. "
+        "Generate a concise,catchy and engaging caption of 2 to 4 words only. "
         "Do not write a complete sentence. "
         "Do not use punctuation, quotation marks, hashtags, emojis, or explanations. "
         "Return only the caption."
