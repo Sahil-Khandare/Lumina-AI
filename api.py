@@ -7,7 +7,7 @@ def analyze_image(
     image_base64,
     prompt,
     api_key,
-    max_tokens=400
+    max_tokens
 ):
 
     headers = {
