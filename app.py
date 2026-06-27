@@ -110,7 +110,8 @@ if uploaded_file is not None:
                     description = analyze_image(
                         image_base64,
                         prompt,
-                        API_KEY
+                        API_KEY,
+                        max_tokens
                     )
 
                     st.session_state["description"] = description
