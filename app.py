@@ -66,6 +66,8 @@ task = st.radio(
     MODES,
     horizontal=True
 )
+max_tokens= MAX_TOKENS[task]
+
 
 uploaded_file = st.file_uploader(
     "Upload an image",
