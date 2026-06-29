@@ -141,10 +141,6 @@ if uploaded_file is not None:
                 key="download_report"
             )
 
-# =========================
-# Footer
-# =========================
-
 st.markdown("---")
 
 st.caption(
