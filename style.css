@@ -17,6 +17,7 @@ h1 {
     font-style: italic;
 }
 
+/*
 .description-box {
     background-color: #1E1E1E;
     color: #FFFFFF;
@@ -29,6 +30,19 @@ h1 {
 
     overflow-y: auto;
     line-height: 1.8;
+}
+*/
+
+.description-box {
+    background: rgba(20,20,20,0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.45);
 }
 
 .stButton > button {
@@ -101,12 +115,10 @@ div[role="radiogroup"] label {
     color: white !important;
 }
 
-/* Main content */
 .main {
     background: transparent;
 }
 
-/* Text */
 h1, h2, h3, p, label {
     color: white !important;
 }
