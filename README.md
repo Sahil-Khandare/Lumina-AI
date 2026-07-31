@@ -85,6 +85,9 @@ Lumina-AI/
 ├── screenshot/
 │   └── homepage.png
 │
+├── .dockerignore
+├── Dockerfile
+│
 ├── api.py
 │
 ├── app.py
