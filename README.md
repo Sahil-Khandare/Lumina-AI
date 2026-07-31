@@ -101,32 +101,39 @@ Lumina-AI/
 
 ---
 
-## Installation
+## Run with Docker
 
-### Clone the Repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Sahil-Khandare/Lumina-AI
+git clone https://github.com/yourusername/Lumina-AI.git
 cd Lumina-AI
 ```
-### Install Dependencies
 
-```bash
-pip install -r requirements.txt
-```
-
-### Configure Environment Variables
-
-Create a `.env` file:
+### 2. Create a `.env` file
 
 ```env
-NVIDIA_API_KEY=your_api_key_here
+NVIDIA_API_KEY=YOUR_API_KEY
 ```
 
-### Run the Application
+### 3. Build the Docker image
 
 ```bash
-streamlit run app.py
+docker build -t lumina-ai .
+```
+
+### 4. Run the container
+
+```bash
+docker run -p 8501:8501 --env-file .env lumina-ai
+```
+
+### 5. Open the application
+
+Visit:
+
+```
+http://localhost:8501
 ```
 
 ---
